@@ -267,9 +267,14 @@ compress_html:
     envs: development
 
 collections:
-  portfolio:
+  projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /courses/:path/
+   
+  publications:
+    output: true
+    permalink: /publications/:path/
+
 
 # Defaults
 defaults:
