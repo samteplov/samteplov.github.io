@@ -1,4 +1,23 @@
 ---
-layout: home
+layout: archive
 author_profile: true
 ---
+{{ content }}
+
+{% assign latestPublications = site.publications | sort: 'uploadDate' | where_exp:"item", "item.not_featureable == nil" | where_exp:"item", "item.hide != true" | reverse %}
+
+{% for pub in latestPublications limit: 3 %}
+	{% if forloop.index > 2 %}<div class="hide-mobile ">{% endif %}
+		{% assign ytThumb = "https://i.ytimg.com/vi/" | append: pub.videoId | append: "/mqdefault.jpg" %}
+		{% include
+			bookmark-box.html
+			url=pub.url
+			title=pub.title
+			imageUrl=ytThumb
+		%}
+	{% if forloop.index > 2 %}</div>{% endif %}
+{% endfor %}
+
+
+{% include paginator.html %}
+
