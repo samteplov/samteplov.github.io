@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sam Teplov"
+title                    : "samteplov.com"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Sam Teplov"
+name                     : " "
 description              : "An amazing website."
 url                      : "https://samteplov.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Sam Teplov"
   avatar           : "/assets/images/avatar.jpeg"
-  bio              : "Naval Officer | Security Researcher"
+  bio              : "Naval Officer, \n Security Researcher"
   location         : "United States"
   email            : #
   links:
@@ -145,6 +145,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
