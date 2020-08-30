@@ -269,7 +269,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /courses/:path/
+    permalink: /projects/:path/
    
   publications:
     output: true
