@@ -145,7 +145,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -286,4 +285,4 @@ defaults:
       layout: single
       author_profile: false
       share: true
-theme: jekyll-theme-slate
+theme: minimal-mistakes-jekyll
