@@ -20,7 +20,7 @@ title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : " "
-description              : "Personal website detailing active and past projects"
+description              : "Sam Teplov's personal website highlighting active and past projects, research, and publications"
 url                      : "https://samteplov.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "samteplov/samteplov.github.io"
@@ -276,4 +276,5 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sitemap: true
 theme: minimal-mistakes-jekyll
