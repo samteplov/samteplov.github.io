@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Sam Teplov"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : " "
+name                     : "Sam Teplov"
 description              : "Sam Teplov's personal website highlighting active and past projects, research, and publications"
 url                      : "https://samteplov.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Sam Teplov"
   avatar           : "/assets/images/avatar.jpeg"
-  bio              : "Naval Officer, \n Security Researcher"
+  bio              : "Naval Officer, Security Researcher"
   location         : "United States"
   email            : #
   links:
@@ -260,7 +260,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-   
+
   publications:
     output: true
     permalink: /publications/:path/

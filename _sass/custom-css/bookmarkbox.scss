@@ -2,7 +2,7 @@
     margin: 20px 0;
 
     a{
-        color: #666; 
+        color: #666;
         font-weight:300;
     }
 
@@ -29,7 +29,7 @@
         flex-grow: 1;
         align-items: flex-start;
         justify-content: start;
-        display:flex;        
+        display:flex;
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -40,11 +40,13 @@
         max-height: 100%;
 
         img{
+            display: block;
+            margin: 0 auto;
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
+            //width: 50%;
+            //height: 50%;
             border-radius: 0;
             -o-object-fit: cover;
             object-fit: cover;
