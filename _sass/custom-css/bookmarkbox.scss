@@ -40,13 +40,11 @@
         max-height: 100%;
 
         img{
-            display: block;
-            margin: 0 auto;
             position: absolute;
             top: 0;
             left: 0;
-            //width: 50%;
-            //height: 50%;
+            width: 50%;
+            height: 50%;
             border-radius: 0;
             -o-object-fit: cover;
             object-fit: cover;
@@ -55,6 +53,7 @@
     }
 }
 
+/*
 @media (prefers-color-scheme: dark) {
 	.bookmarkbox {
         a{
@@ -65,3 +64,4 @@
         }
     }
 }
+*/
