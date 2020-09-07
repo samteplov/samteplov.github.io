@@ -7,16 +7,33 @@ layout: default
 			<a href="{{ post.url }}">{{ page.title }}</a>
 		</h1>
 
+			<p class="no-margin">
+				{% if page.journal %}
+							{{page.journal}}, {{page.year}}
+				{% endif %}
+
+			</p>
+
 		<p class="no-margin">
-			Available on:
+			Available at:
 
-			{% if page.link_udemy %}
-	          <a href="{{page.link_udemy}}">Udemy</a>&nbsp;/&nbsp;
-	        {% endif %}
+			{% if page.github_url %}
+							<a href="{{page.github_url}}">Github</a>
+			{% endif %}
 
-	        {% if page.link_skillshare %}
-	            <a href="{{page.link_skillshare}}">Skillshare</a>
-	        {% endif %}
+			{% if page.journal_url %}
+						<a href="{{page.journal_url}}">Original</a>&nbsp;/&nbsp;
+			{% endif %}
+
+			{% if page.article_url %}
+	          <a href="{{page.article_url}}">arXiv</a>&nbsp;/&nbsp;
+	    {% endif %}
+
+	    {% if page.pdf_dir %}
+	            <a href="{{page.pdf_dir}}">PDF</a>
+	    {% endif %}
+
+
 		</p>
 		<hr>
 

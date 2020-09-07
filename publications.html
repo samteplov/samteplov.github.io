@@ -2,9 +2,9 @@
 layout: page
 title: Publications
 collection: publications
-quote: These are all of the publications I have helped author or contributed to
+quote: These are all of the publications I have helped author or have contributed to
 ---
-<p>These are all of the publications I have helped author or contributed to</p>
+<p>These are all of the publications I have helped author or have contributed to</p>
 
 
 {% for publication in site.publications %}
@@ -25,7 +25,7 @@ quote: These are all of the publications I have helped author or contributed to
           <div class="platforms">
             {{publication.journal}}, {{publication.year}}
             <br>
-            <a href="{{publication.article_url}}">arXiv</a> | <a href="{{publication.pdf_dir}}">PDF</a>
+            <a href="{{publication.journal_url}}">Original</a> | <a href="{{publication.article_url}}">arXiv</a> | <a href="{{publication.pdf_dir}}">PDF</a>
           </div>
         </div>
       </div>
