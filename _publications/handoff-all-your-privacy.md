@@ -18,7 +18,7 @@ We investigate Apple’s Bluetooth Low Energy (BLE) Continuity protocol, designe
 
 # Ongoing Efforts
 \
-There have been a number of changes and updates to Apple's proprietary BLE Continuity protocol since published this research. Be sure to checkout our [Github Repo](https://github.com/furiousMAC/continuity) to find the latest Wireshark dissectors and information.
+There have been a number of changes and updates to Apple's proprietary BLE Continuity protocol since published this research. Be sure to checkout our [Github Repo](https://github.com/furiousMAC/continuity) to find the latest Wireshark dissectors and information. If you would like to learn more about our journey reverse engineering's Apple's Continuity protocol, check out my [project page](/projects/apple-ble-rev/)
 
 
 <!--more-->
