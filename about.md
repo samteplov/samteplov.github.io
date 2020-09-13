@@ -2,7 +2,7 @@
 layout: aboutme
 permalink: about.html
 author_profile: true
-title: About me
+title: About Me
 ---
 
 I am a security researcher who mainly focuses on wireless technologies such as WiFi and Bluetooth. I was first introduced to security research in 2017 when I joined the [Furious MAC](https://furiousmac.com) Research Group. Ever since then, I have been an active member of the group. I also enjoy reading about and working on ML/DL projects, as well DevOps, and cyber-physical systems. In my free time, I enjoy competing in various CTF challenges.
