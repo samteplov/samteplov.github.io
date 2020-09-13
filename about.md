@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: aboutme
 permalink: about.html
 author_profile: true
 title: About me
