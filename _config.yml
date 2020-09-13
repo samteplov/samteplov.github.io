@@ -266,6 +266,10 @@ collections:
     output: true
     permalink: /publications/:path/
 
+  presentations:
+    output: true
+    permalink: /presentations/:path/
+
 
 # Defaults
 defaults:

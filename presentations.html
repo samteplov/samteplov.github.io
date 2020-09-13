@@ -1,0 +1,37 @@
+---
+layout: page
+title: Presentations
+collection: presentations
+quote: These are all of the presentations I have done
+---
+<p>These are all of the presentations I have done</p>
+
+
+{% for presentation in site.presentations %}
+
+  <div class="publication-container">
+
+    <div class="display-flex">
+      <div class="publication-thumbnail">
+        <a href="{{presentation.url}}">
+          <img src="{{presentation.upload_directory}}/thumb.png">
+        </a>
+      </div>
+
+      <div class="publication-description flex-vcenter">
+
+        <div class="publication-title">
+          <a href="{{presentation.url}}">{{presentation.conference_name}} {{presentation.year}}</a>
+          <div class="platforms">
+            {{presentation.title}}
+            <br>
+            <a href="{{presentation.video_url}}">Video</a> | <a href="{{presentation.slides}}">Slides</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+{% endfor %}

@@ -1,0 +1,37 @@
+---
+layout: page
+title: Posts
+collection: posts
+quote: These are my blog posts
+---
+<p>These are all of my blog posts</p>
+
+
+{% for post in site.posts %}
+
+  <div class="publication-container">
+
+    <div class="display-flex">
+      <div class="publication-thumbnail">
+        <a href="{{post.url}}">
+          <img src="{{post.upload_directory}}/thumb.png">
+        </a>
+      </div>
+
+      <div class="publication-description flex-vcenter">
+
+        <div class="publication-title">
+          <a href="{{post.url}}">{{post.title}}</a>
+          <div class="platforms">
+            {{post.journal}}, {{post.year}}
+            <br>
+            <a href="{{post.journal_url}}">Original</a> | <a href="{{post.article_url}}">arXiv</a> | <a href="{{post.pdf_dir}}">PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+{% endfor %}

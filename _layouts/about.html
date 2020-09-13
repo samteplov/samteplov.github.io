@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <div class="container">
+    <article class='post'>
+    	<h1 class='post-title'>
+    		<a href="{{ post.url }}">{{ page.title }}</a>
+    	</h1>
+
+    	<div class='post-description'>
+    		{{ content }}
+    	</div>
+    </article>
+  </div>
+</div>

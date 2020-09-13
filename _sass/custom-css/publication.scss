@@ -14,8 +14,11 @@
 	border: solid 1px #DDDDDD;
 
 	div.publication-thumbnail, .publication-thumbnail img{
-		min-width: 128px;
-		width: 128px;
+		margin: auto;
+		padding-left: 10px;
+		min-width: 180px;
+		width: 180px;
+		#width: 128px;
 	}
 
 	div.publication-description{
