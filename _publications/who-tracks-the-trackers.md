@@ -7,7 +7,7 @@ article_url: https://dl.acm.org/doi/pdf/10.1145/3463676.3485616
 thumbnail: true
 upload_directory: /uploads/who-tracks-the-trackers
 year: 2021
-journal: WPES '21: Proceedings of the 20th Workshop on Workshop on Privacy in the Electronic Society
+journal: "Proceedings of the 20th Workshop on Workshop on Privacy in the Electronic Society"
 pdf_dir: /uploads/who-tracks-the-trackers/trackers.pdf
 journal_url: https://dl.acm.org/doi/10.1145/3463676.3485616
 ---

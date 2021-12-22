@@ -6,8 +6,8 @@ quote: These are all of the publications I have helped author or have contribute
 ---
 
 
-
-{% for publication in site.publications %}
+{% assign sorted = site.publications | sort: 'year' | reverse %}
+{% for publication in sorted %}
 
   <div class="publication-container">
 

@@ -6,8 +6,8 @@ quote: These are all of the presentations I have done
 ---
 
 
-
-{% for presentation in site.presentations %}
+{% assign sorted = site.presentations | sort: 'year' | reverse %}
+{% for presentation in sorted %}
 
   <div class="publication-container">
 
