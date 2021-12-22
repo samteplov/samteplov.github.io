@@ -282,4 +282,4 @@ defaults:
       author_profile: false
       share: true
       sitemap: true
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
